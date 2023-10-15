@@ -3,10 +3,11 @@ import { FilterContainer,
          FilterText,
          FilterInputn } from "./ContactFilter.styled"
 import { filterContacts } from "redux/filterSlise";
+import { selectFilter } from "redux/selectors";
 
 export const ContactFilter = () => {
     const dispatch = useDispatch();
-    const filter = useSelector(state => state.filter);
+    const filter = useSelector(selectFilter);
     
 return (
     <FilterContainer>

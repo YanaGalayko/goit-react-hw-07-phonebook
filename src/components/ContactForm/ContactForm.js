@@ -62,12 +62,12 @@ export const ContactForm = () => {
             <FormContact>
               <FormLabel>
                     Name
-                <FormInput type="text" name="name" />
+                <FormInput type="text" name="name" placeholder="Enter your name"/>
                 <FormError name="name" component="div" />
               </FormLabel>
               <FormLabel>
                     Number
-                <FormInput type="tel" name="number" />
+                <FormInput type="tel" name="number" placeholder="Enter your phone"/>
                 <FormError name="number" component="div" />
               </FormLabel>
               <FormBtn type="submit">

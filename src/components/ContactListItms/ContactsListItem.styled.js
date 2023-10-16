@@ -3,11 +3,15 @@ import styled from 'styled-components';
 export const ListItems = styled.li`
   display: flex;
   gap: 20px;
+  border: 1px solid black;
+  width: 350px;
+  border-radius: 8px;
 `;
 
 export const ListText = styled.p`
   font-size: 20px;
   font-weight: 400;
+  width: 350px;
 `;
 
 export const ListBtn = styled.button`
